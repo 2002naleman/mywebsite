@@ -1,0 +1,63 @@
+/* CSS GOES HERE */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: urbanist;
+    vertical-align: baseline;
+    background-color: #FFEED6;
+}
+
+section {
+    padding: 60px 40px;
+    
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.boxes {
+  color:#996666;
+  border: 2px solid #d2bf55;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  text-decoration: underline;
+  width:150px;
+}
+
+.dropdown {
+  color:#996666;
+  border: 2px solid #d2bf55;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px 80px 30px 30px;
+  text-align: left;
+  text-decoration: underline;
+  width:275px;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    color: #996666;
+    padding: 10px;
+}
+

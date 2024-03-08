@@ -23,6 +23,7 @@ section {
     margin: 0 auto;
 }
 
+
 .boxes {
   color:#996666;
   border: 2px solid #d2bf55;
@@ -31,20 +32,72 @@ section {
   padding: 30px 30px 30px 30px;
   text-align: center;
   text-decoration: underline;
-  width:150px;
 }
+
+.email{
+  background-color:#d2bf55;
+  opacity: 30%;
+  width: 654px;
+  height: 64px;
+  flex-shrink: 0;
+  
+}
+
+.message {
+  background-color:#d2bf55;
+  opacity: 30%;
+  width: 654px;
+  height: 271px;
+  flex-shrink: 0;
+}
+
+.fontcont {
+  color:#996666;
+  font-size: 30px;
+}
+
+
+#stack {
+
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  #stack div {
+    width: 20%;
+    height: auto;
+  }  
+
 
 .dropdown {
   color:#996666;
   border: 2px solid #d2bf55;
   margin-top: 40px;
   margin-bottom: 40px;
-  padding: 30px 80px 30px 30px;
-  text-align: left;
+  padding: 40px 80px 40px 30px;
+  text-align: center;
   text-decoration: underline;
-  width:275px;
+
 }
 
+#drop {
+
+    display: flex;
+    flex-wrap:wrap;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #drop div {
+    width: 100%;
+    height: auto;
+  }  
 
 
 
@@ -52,8 +105,10 @@ nav ul {
     list-style: none;
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: right;
     gap: 10px;
+    font-size: 25px;
+    width: 80%;
 }
 
 footer {

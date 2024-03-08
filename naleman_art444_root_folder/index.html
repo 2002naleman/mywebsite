@@ -9,10 +9,17 @@
   
   <style>
 body{font-family: urbanist;}
+
 h1.different {color:#996666;font-size: 80px;font-weight: bolder;}
+
 h2.different {color:#996666;font-size: 60px; font-weight: bolder; margin-top: 0px;margin-bottom: 100px;text-decoration: underline;}
+
 p.different {color: #996666;font-size:20px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;text-decoration: underline;}
+
 h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
+
+h4 {color:#996666; font-size: 35px;}
+
 
   </style>
 </head>
@@ -43,7 +50,7 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
 <!-- About Section --> 
 <section id="about">
   <div>
-    <div class="row container">
+    <div class="container">
       <h2 class="different">About</h2>
       <p class="different">Hi, my name is Nieves and I'm a senior at SDSU majoring in Multimedia. I'm planning to graduate this Spring of 2024 with a couple of my childhood friends. Post graduation is a little foggy but I hope I have some fun while I'm searching for a stable job.</p>
     </div>
@@ -58,29 +65,33 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
 
           <!--sections-->
 
-        <div class="container">
-          <h3 class="boxes">Ceramics</h3>
+    <div id="stack">
+
+        <div class="boxes">
+          <h3>Ceramics</h3>
         </div>
 
-        <div class="container">
-          <h3 class="boxes">Photography</h3>
+        <div class="boxes">
+          <h3>Photography</h3>
         </div>
 
-        <div class="container">
-          <h3 class="boxes">Studio Arts</h3>
+        <div class="boxes">
+          <h3>Studio Arts</h3>
         </div>
 
-        <div class="container">
-          <h3 class="boxes">Book Arts</h3>
+        <div class="boxes">
+          <h3>Book Arts</h3>
         </div>
 
-        <div class="container">
-          <h3 class="boxes">Graphic Design</h3>
+        <div class="boxes">
+          <h3>Graphic Design</h3>
         </div>
 
-        <div class="container">
-          <h3 class="boxes">Illustration</h3>
+        <div class="boxes">
+          <h3>Illustration</h3>
         </div>
+
+     </div>
 
         </section>
 
@@ -88,6 +99,7 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
 <section id="gallery">
   <div class="container">
     <h2 class="different">Gallery</h2>
+
       <div><img width="300" src="images/IMG_2456 Medium.jpeg" class="image" alt="shark horse"/></div>
       <div><img width="300" src="images/IMG_2550 Medium.jpeg" class="image" alt="teacups"/></div>
       <div><img width="300" src="images/IMG_2554 Medium.jpeg" class="image" alt="espresso cups"/></div>
@@ -96,6 +108,7 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
       <div><img width="300" src="images/IMG_2712.jpg" class="image" alt="wire shoe"/></div>
       <div><img width="300" src="http://placehold.it/300x300" class="image" alt="Work Seven"/></div>
       <div><img width="300" src="http://placehold.it/300x300" class="image" alt="Work Eight"/></div>
+
   </div>
 </section>
 
@@ -104,6 +117,7 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
   <div class="container">
     <h2 class="different">FAQ</h2>
 
+  <div id="drop">
       <div>
         <h3 class="dropdown">When will you be graduating from SDSU?</h3>
       </div>
@@ -141,7 +155,7 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
             <p class="different">The work I'm most proud in producing would have to be the sets of cups I made for my last project in beginning ceramics. That project was the most tedious as there are many steps in creating the vessel itself and choosing the look. I also found the statue inspired by ancient pottery to be another favorite as I had to remake the project due to it blowing up. The remaking of it was quite fast the second time and I found that I liked the look of it better than the first.</p>
             </div>
             -->
-
+  </div>
 
   </div>
 </section>
@@ -150,19 +164,17 @@ h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
 <section id="contact">
   <div class="container">
     <h2 class="different">Contact</h2>
+
+    <h4>Get In Contact</h4>
+    
     <form>
       <div class="six columns">
-        <label for="exampleRecipientInput">Name</label>
-        <input class="u-full-width" type="text">
-      </div>
-      <div class="six columns">
         <label for="exampleEmailInput">Email</label>
-        <input class="u-full-width" type="email">
+        <input class="u-full-width email" type="email">
       </div>
-    
       <div>
         <label for="exampleMessage">Message</label>
-        <textarea class="u-full-width"></textarea>
+        <textarea class="u-full-width message"></textarea>
       </div>
       <input class="button-primary" type="submit" value="Submit">
     </form>

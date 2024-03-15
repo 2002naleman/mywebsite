@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+  
   <meta charset="UTF-8">
   <title>Nieves Aleman - Welcome to my Webpage</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
   
-  <style>
-body{font-family: urbanist;}
-
-h1.different {color:#996666;font-size: 80px;font-weight: bolder;}
-
-h2.different {color:#996666;font-size: 60px; font-weight: bolder; margin-top: 0px;margin-bottom: 100px;text-decoration: underline;}
-
-p.different {color: #996666;font-size:20px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;text-decoration: underline;}
-
-h3.different {color:#996666;font-size: 30px; font-weight: bolder;}
-
-h4 {color:#996666; font-size: 35px;}
-
-
-  </style>
 </head>
 <body>
 
@@ -30,6 +16,11 @@ h4 {color:#996666; font-size: 35px;}
 <header id="main_nav">
   <div class="main_nav">
     <nav>
+
+    <div>
+      <h5>Nieves Aleman</h5>
+    </div>  
+
       <ul>
         <li><a class="smoothscroll" href="#header">Home</a></li>
         <li><a class="smoothscroll" href="#about">About</a></li>
@@ -38,13 +29,18 @@ h4 {color:#996666; font-size: 35px;}
         <li><a class="smoothscroll" href="#faqs">FAQs</a></li>
         <li><a class="smoothscroll" href="#contact">Contact</a></li>
       </ul>
+
     </nav>
   </div>
 </header>
 
 <!-- Main Header --> 
   <section id="header" class="header">
-    <h1 class="different">Nieves Aleman</h1>
+    
+  <div class="container">  
+    <h1 class="different">Nieves Aleman.</h1>
+  </div>
+
   </section>
   
 <!-- About Section --> 
@@ -65,7 +61,7 @@ h4 {color:#996666; font-size: 35px;}
 
           <!--sections-->
 
-    <div id="stack">
+    <div id="stack" class="container">
 
         <div class="boxes">
           <h3>Ceramics</h3>
@@ -100,14 +96,16 @@ h4 {color:#996666; font-size: 35px;}
   <div class="container">
     <h2 class="different">Gallery</h2>
 
+  <div class="photos">  
       <div><img width="300" src="images/IMG_2456 Medium.jpeg" class="image" alt="shark horse"/></div>
       <div><img width="300" src="images/IMG_2550 Medium.jpeg" class="image" alt="teacups"/></div>
       <div><img width="300" src="images/IMG_2554 Medium.jpeg" class="image" alt="espresso cups"/></div>
       <div><img width="300" src="images/IMG_2560 Medium.jpeg" class="image" alt="cat pottery"/></div>
       <div><img width="300" src="images/IMG_2710.jpg" class="image" alt="candy bag"/></div>
       <div><img width="300" src="images/IMG_2712.jpg" class="image" alt="wire shoe"/></div>
-      <div><img width="300" src="http://placehold.it/300x300" class="image" alt="Work Seven"/></div>
-      <div><img width="300" src="http://placehold.it/300x300" class="image" alt="Work Eight"/></div>
+      <div><img width="300" src="images/NievesAleman-11.jpg" class="image" alt="Work Seven"/></div>
+      <div><img width="300" src="images/NievesAleman-16.jpg" class="image" alt="Work Eight"/></div>
+  </div>
 
   </div>
 </section>
@@ -166,18 +164,28 @@ h4 {color:#996666; font-size: 35px;}
     <h2 class="different">Contact</h2>
 
     <h4>Get In Contact</h4>
-    
+      
     <form>
+
+    <div class="contact">  
       <div class="six columns">
-        <label for="exampleEmailInput">Email</label>
+        <label for="exampleEmailInput" class="fontcont">Email</label>
         <input class="u-full-width email" type="email">
       </div>
+
       <div>
-        <label for="exampleMessage">Message</label>
+        <label for="exampleMessage" class="fontcont">Message</label>
         <textarea class="u-full-width message"></textarea>
-      </div>
+      </div>  
+    </div>  
+
       <input class="button-primary" type="submit" value="Submit">
+  
+
+    </div>
+
     </form>
+
   </div>
 </section>
 

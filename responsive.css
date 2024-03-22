@@ -5,6 +5,12 @@
         display: block;
       }
     
+      .mobile-menu-popout {
+        display: block;
+       }
+
+
+
 body{font-family: urbanist;}
 
 h1.different {color:#996666;font-size: 90px;font-weight: bolder; max-width: 50%}
@@ -211,6 +217,12 @@ footer {
         display: block;
       }
     
+   .mobile-menu-popout {
+        display: block;
+       }
+
+
+
 body{font-family: urbanist;}
 
 h1.different {color:#996666;font-size: 75px;font-weight: bolder; max-width: 50%}

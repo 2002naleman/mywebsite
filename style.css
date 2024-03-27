@@ -35,7 +35,7 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
 
 
 .mobile-menu-popout {
-  background-color: #996666;
+  background-color: #d2bf55;
   z-index: 998;
   padding: 80px 40px;
   padding-top: 80px;
@@ -46,7 +46,6 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
   top: 0;
   right: -190px;
   overflow-x: hidden;
-  opacity: 75%;
   display: none;
 }
 

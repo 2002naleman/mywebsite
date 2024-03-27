@@ -71,17 +71,12 @@ right: 0;
 }
 
 
-a:link {
+a:link a:active {
   color:#996666;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:active {
-  color:#996666;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 a:hover {
   color:#FBBFCA;

@@ -73,7 +73,12 @@ a:link {
   color:#996666;
   text-decoration: none;
   cursor: pointer;
-  opacity: 100%;
+}
+
+a:active {
+  color:#996666;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {

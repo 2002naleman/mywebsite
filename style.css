@@ -70,10 +70,15 @@ right: 0;
 }
 
 
-a:link a:visited {
+a:link {
   color:#996666;
   text-decoration: none;
   cursor: pointer;
+}
+
+a:visited {
+  color:#996666;
+  text-decoration: none;
 }
 
 
@@ -96,6 +101,13 @@ body {
     font-family: urbanist;
     vertical-align: baseline;
     background-color: #FFEED6;
+}
+
+
+.image {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
 }
 
 section {

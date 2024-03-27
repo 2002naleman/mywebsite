@@ -1,7 +1,7 @@
 /* CSS GOES HERE */
 
 
-body{font-family: urbanist; scroll-behavior: smooth;}
+body{font-family: urbanist;}
 
 h1.different {color:#996666;font-size: 100px;font-weight: bolder; max-width: 50%}
 
@@ -59,7 +59,6 @@ flex-flow: column;
 gap: 20px;
 font-size: 20px;
 align-items: left;
-transition: 0.3s;
 }
 
 .open {
@@ -71,7 +70,7 @@ right: 0;
 }
 
 
-a:link a:active {
+a:link a:visited {
   color:#996666;
   text-decoration: none;
   cursor: pointer;
@@ -81,7 +80,11 @@ a:link a:active {
 a:hover {
   color:#FBBFCA;
   text-decoration: none;
-  cursor: pointer;
+}
+
+a:active {
+  color:#996666;
+  text-decoration: none;
 }
 
 

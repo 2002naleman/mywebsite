@@ -46,6 +46,7 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
   top: 0;
   right: -190px;
   overflow-x: hidden;
+  opacity: 75%;
   display: none;
 }
 

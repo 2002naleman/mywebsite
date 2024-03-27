@@ -44,7 +44,7 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
   height: 100%;
   position: fixed;
   top: 0;
-  right: 190px;
+  right: -190px;
   overflow-x: hidden;
   opacity: 75%;
   color: #FFEED6;

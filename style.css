@@ -71,11 +71,18 @@ right: 0;
 }
 
 
-a:link, a:visited {
+a:link {
   color:#996666;
   text-decoration: none;
   cursor: pointer;
 }
+
+a:visited {
+  color:#d2bf55;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 
 body {

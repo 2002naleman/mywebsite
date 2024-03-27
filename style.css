@@ -1,7 +1,7 @@
 /* CSS GOES HERE */
 
 
-body{font-family: urbanist;}
+body{font-family: urbanist; scroll-behavior: smooth;}
 
 h1.different {color:#996666;font-size: 100px;font-weight: bolder; max-width: 50%}
 
@@ -84,7 +84,7 @@ a:active {
 }
 
 a:hover {
-  color:#d2bf55;
+  color:#FBBFCA;
   text-decoration: none;
   cursor: pointer;
 }

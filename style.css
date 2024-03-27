@@ -52,12 +52,14 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
 
 .mobile_links {
 list-style: none;
+text-decoration: none;
 padding: 0;  
 display: flex;
 flex-flow: column;
 gap: 20px;
 font-size: 20px;
 align-items: left;
+transition: 0.3s;
 }
 
 .open {

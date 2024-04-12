@@ -11,19 +11,18 @@
 
 
 
-body{font-family: urbanist;}
 
-h1.different {color:#996666;font-size: 90px;font-weight: bolder; max-width: 50%}
+h1.different {font-size: 90px;font-weight: bolder; max-width: 50%}
 
-h2.different {color:#996666;font-size: 70px; font-weight: bold; margin-top: 0px;margin-bottom: 30px;text-decoration: underline;}
+h2.different {font-size: 70px; font-weight: bold; margin-top: 0px;margin-bottom: 30px;text-decoration: underline;}
 
-p.different {color: #996666;font-size:30px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;text-decoration: underline;}
+p.different {font-size:30px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;}
 
-h3.different {color:#996666;font-size: 55px; font-weight: bold;}
+h3.different {font-size: 55px; font-weight: bold;}
 
-h4 {color:#996666; font-size: 35px;}
+h4 {font-size: 35px;}
 
-h5 {color: #996666; font-size: 20px; margin-left: 30px;max-width: 50%;}
+h5 {font-size: 20px; margin-left: 30px;max-width: 50%;}
 
 
 body {
@@ -51,7 +50,7 @@ section {
 
 
 .boxes {
-  color:#996666;
+  
   border: 2px solid #d2bf55;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -90,7 +89,7 @@ section {
 
 
 .dropdown {
-  color:#996666;
+  
   border: 2px solid #d2bf55;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -167,7 +166,7 @@ nav ul {
 
 
 .fontcont {
-  color:#996666;
+
   font-size: 20px;
 
 }
@@ -194,7 +193,6 @@ nav ul {
 
 
 footer {
-    color: #996666;
     padding: 10px;
 }
 
@@ -223,19 +221,18 @@ footer {
 
 
 
-body{font-family: urbanist;}
 
-h1.different {color:#996666;font-size: 75px;font-weight: bolder; max-width: 50%}
+h1.different {font-size: 75px;font-weight: bolder; max-width: 50%}
 
-h2.different {color:#996666;font-size: 50px; font-weight: bold; margin-top: 0px;margin-bottom: 30px;text-decoration: underline;}
+h2.different {font-size: 50px; font-weight: bold; margin-top: 0px;margin-bottom: 30px;text-decoration: underline;}
 
-p.different {color: #996666;font-size:25px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;text-decoration: underline;}
+p.different {font-size:25px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;}
 
-h3.different {color:#996666;font-size: 45px; font-weight: bold;}
+h3.different {font-size: 45px; font-weight: bold;}
 
-h4 {color:#996666; font-size: 25px;}
+h4 {font-size: 25px;}
 
-h5 {color: #996666; font-size: 15px; margin-left: 30px;max-width: 50%;}
+h5 {font-size: 15px; margin-left: 30px;max-width: 50%;}
 
 
 body {
@@ -245,6 +242,7 @@ body {
     font-family: urbanist;
     vertical-align: baseline;
     background-color: #FFEED6;
+    color: #996666;
 }
 
 section {
@@ -263,7 +261,7 @@ section {
 
 
 .boxes {
-  color:#996666;
+
   border: 2px solid #d2bf55;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -278,7 +276,6 @@ section {
 #stack {
 
     text-align: center;
-    text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -301,13 +298,11 @@ section {
 
 
 .dropdown {
-  color:#996666;
   border: 2px solid #d2bf55;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 40px 30px 40px 30px;
   text-align: center;
-  text-decoration: underline;
   font-size: 18px;
 
 }
@@ -373,7 +368,6 @@ nav ul {
 }
 
 .fontcont {
-  color:#996666;
   font-size: 18px;
 
 }
@@ -399,7 +393,6 @@ nav ul {
 
 
 footer {
-    color: #996666;
     padding: 10px;
 }
 

@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="UTF-8">
   <title>Nieves Aleman - Welcome to my Webpage</title>
   <link rel="stylesheet" href="style.css">
@@ -11,6 +12,7 @@
 </head>
 <body>
 
+<button onclick="darkMode()" class="dark-mode" id="lightMode"></button>
 
 <div onclick="myMenu()" class="mobile-menu" id="menuButton"></div>
 
@@ -221,6 +223,13 @@
 </footer>
 
 <script>
+
+  function darkMode() {
+    document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
+    document.getElementById('lightMode').classList.toggle('light-mode');
+  }
+
+
   function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');
     document.getElementById('menuButton').classList.toggle('close');

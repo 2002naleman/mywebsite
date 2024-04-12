@@ -1,19 +1,17 @@
 /* CSS GOES HERE */
 
 
-body{font-family: urbanist;}
+h1.different {font-size: 100px;font-weight: bolder; max-width: 50%}
 
-h1.different {color:#996666;font-size: 100px;font-weight: bolder; max-width: 50%}
+h2.different {font-size: 60px; font-weight: bold; margin-top: 0px;margin-bottom: 100px;text-decoration: underline;}
 
-h2.different {color:#996666;font-size: 60px; font-weight: bold; margin-top: 0px;margin-bottom: 100px;text-decoration: underline;}
+p.different {font-size:35px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;}
 
-p.different {color: #996666;font-size:35px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;text-decoration: underline;}
+h3.different {font-size: 45px; font-weight: bold;}
 
-h3.different {color:#996666;font-size: 45px; font-weight: bold;}
+h4 {font-size: 40px;}
 
-h4 {color:#996666; font-size: 40px;}
-
-h5 {color: #996666; font-size: 30px; width: 50%;}
+h5 {font-size: 30px; width: 50%;}
 
 
 .mobile-menu {
@@ -28,6 +26,7 @@ h5 {color: #996666; font-size: 30px; width: 50%;}
   background-position: 50% 50%;
   border-radius: 50%;
   z-index: 999;
+  cursor: pointer;
   display: none;
 }
 
@@ -101,8 +100,46 @@ body {
     font-family: urbanist;
     vertical-align: baseline;
     background-color: #FFEED6;
+    color: #996666;
 }
 
+
+.body-dark-mode {
+  background-color: #996666;
+  color:#d2bf55;
+}
+
+.dark-mode {
+  width: 40px;
+  height: 40px;
+  background-color: #996666;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-image: url(images/dark_mode_FILL0_wght400_GRAD0_opsz24.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  border: none;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.light-mode {
+  width: 40px;
+  height: 40px;
+  background-color:#d2bf55;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-image: url(images/light_mode_FILL0_wght400_GRAD0_opsz24.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  border: none;
+  z-index: 999;
+  cursor: pointer;
+}
 
 .image {
   object-fit: cover;
@@ -126,13 +163,12 @@ section {
 
 
 .boxes {
-  color:#996666;
+  
   border: 2px solid #d2bf55;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 30px 30px 30px 30px;
   text-align: center;
-  text-decoration: underline;
   font-size: 20px;
 }
 
@@ -141,7 +177,6 @@ section {
 #stack {
 
     text-align: center;
-    text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -164,13 +199,11 @@ section {
 
 
 .dropdown {
-  color:#996666;
   border: 2px solid #d2bf55;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 40px 80px 40px 30px;
   text-align: center;
-  text-decoration: underline;
   font-size: 25px;
 
 }
@@ -252,7 +285,7 @@ nav ul {
 
 
 .fontcont {
-  color:#996666;
+  
   font-size: 18px;
 
 }
@@ -278,7 +311,6 @@ nav ul {
 }
 
 footer {
-    color: #996666;
     padding: 10px;
   
 }

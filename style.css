@@ -1,5 +1,6 @@
 /* CSS GOES HERE */
 
+html {scroll-behavior: smooth;}
 
 h1.different {font-size: 100px;font-weight: bolder; max-width: 50%}
 

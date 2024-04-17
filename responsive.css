@@ -60,7 +60,15 @@ section {
   font-size: 25px;
 }
 
-
+.boxes-dark {
+  border: 2px solid #FBBFCA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+}
 
 #stack {
 
@@ -97,7 +105,16 @@ section {
   text-align: center;
   text-decoration: underline;
   font-size: 25px;
+}
 
+.dropdown-dark {
+  border: 2px solid #FBBFCA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 30px 40px 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
 }
 
 #drop {
@@ -271,7 +288,15 @@ section {
   font-size: 18px;
 }
 
-
+.boxes-dark {
+  border: 2px solid #FBBFCA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+}
 
 #stack {
 
@@ -305,6 +330,15 @@ section {
   text-align: center;
   font-size: 18px;
 
+}
+
+.dropdown-dark {
+  border: 2px solid #FBBFCA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 30px 40px 30px;
+  text-align: center;
+  font-size: 18px;
 }
 
 #drop {

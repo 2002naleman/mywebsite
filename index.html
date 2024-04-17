@@ -224,24 +224,39 @@
 
 <script>
 
-  function darkMode() {
+function darkMode() {
 
-    const boxesDark = document.querySelectorAll('.boxes')
+
+
+const navDark = document.querySelectorAll('a')
+
+for (let i = 0; i < navDark.length; i++){
+  navDark[i].classList.toggle('a-dark');
+}
+
+
+const boxesDark = document.querySelectorAll('.boxes')
 
     for (let i = 0; i < boxesDark.length; i++){
       boxesDark[i].classList.toggle('boxes-dark');
   }
 
-  const dropDark = document.querySelectorAll('.dropdown')
+
+const dropDark = document.querySelectorAll('.dropdown')
 
 for (let i = 0; i < dropDark.length; i++){
   dropDark[i].classList.toggle('dropdown-dark');
 }  
 
+
+
+
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementById('lightMode').classList.toggle('light-mode');
-    
+    document.getElementById('menuButton').classList.toggle('mobile-menu-dark');
+    document.getElementById('mymenu').classList.toggle('mobile-pop-dark');
   }
+/*---------------------------------------------------------------------------------------------------------*/
 
   function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');

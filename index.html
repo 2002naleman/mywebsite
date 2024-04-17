@@ -225,8 +225,22 @@
 <script>
 
   function darkMode() {
+
+    const boxesDark = document.querySelectorAll('.boxes')
+
+    for (let i = 0; i < boxesDark.length; i++){
+      boxesDark[i].classList.toggle('boxes-dark');
+  }
+
+  const dropDark = document.querySelectorAll('.dropdown')
+
+for (let i = 0; i < dropDark.length; i++){
+  dropDark[i].classList.toggle('dropdown-dark');
+}  
+
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementById('lightMode').classList.toggle('light-mode');
+    
   }
 
   function myMenu() {

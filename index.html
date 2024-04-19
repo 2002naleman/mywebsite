@@ -260,6 +260,18 @@ for (let i = 0; i < messageDark.length; i++){
   messageDark[i].classList.toggle('message-dark');
 }  
 
+const subDark = document.querySelectorAll('.button')
+
+for (let i = 0; i < subDark.length; i++){
+  subDark[i].classList.toggle('button-dark');
+}  
+
+const socialsDark = document.querySelectorAll('.socials')
+
+for (let i = 0; i < socialsDark.length; i++){
+  socialsDark[i].classList.toggle('socials-dark');
+}  
+
 
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementById('lightMode').classList.toggle('light-mode');

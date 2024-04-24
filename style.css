@@ -276,6 +276,10 @@ section {
   text-decoration: underline;
 }
 
+.answer-size {
+  font-size: 25px !important;
+}
+
 
 .faq-toggle {
   padding: 20px;

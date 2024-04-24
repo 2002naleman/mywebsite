@@ -78,7 +78,7 @@ section {
   #stack div {
     width: 75%;
     height: auto;
-  }  
+  } 
 
 
   .photos {
@@ -90,28 +90,52 @@ section {
 
 
 
-
 .dropdown {
   
   border: 2px solid #d2bf55;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 40px 30px 40px 30px;
   text-align: center;
   font-size: 25px;
+  text-decoration: underline;
 }
 
 .dropdown-dark {
   border: 2px solid #FBBFCA;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 40px 30px 40px 30px;
   text-align: center;
   font-size: 25px;
+  text-decoration: underline;
+}
+
+.answer-size {
+  font-size: 22px !important;
 }
 
 
+.faq-toggle {
+  padding: 20px;
+  border-radius: 5px;
+  height: 158px;
+  cursor: pointer;
+  overflow: hidden;
+}
 
+.faq-toggle-dark {
+  padding: 20px;
+  border-radius: 5px;
+  height: 158px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.faq-open {
+  height: auto;
+}
 
 
 #drop {
@@ -294,15 +318,14 @@ section {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     justify-content: space-around;
   }
   
   #stack div {
     width: 75%;
     height: auto;
-  }  
-
+  } 
 
   .photos {
     display: flex;
@@ -315,24 +338,49 @@ section {
 
 .dropdown {
   border: 2px solid #d2bf55;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 40px 30px 40px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 18px;
-
+  text-decoration: underline;
 }
 
 .dropdown-dark {
   border: 2px solid #FBBFCA;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 40px 30px 40px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 18px;
+  text-decoration: underline;
+}
+
+.answer-size {
+  font-size: 16px !important;
 }
 
 
+.faq-toggle {
+  padding: 20px;
+  border-radius: 5px;
+  height: 130px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.faq-toggle-dark {
+  padding: 20px;
+  border-radius: 5px;
+  height: 130px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.faq-open {
+  height: auto;
+}
 
 #drop {
 

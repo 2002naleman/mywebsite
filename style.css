@@ -6,7 +6,7 @@ h1.different {font-size: 100px;font-weight: bolder; max-width: 50%}
 
 h2.different {font-size: 60px; font-weight: bold; margin-top: 0px;margin-bottom: 100px;text-decoration: underline;}
 
-p.different {font-size:35px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;}
+p.different {font-size:30px; margin-top: 25px;margin-bottom: 50px;font-weight: lighter;}
 
 h3.different {font-size: 45px; font-weight: bold;}
 
@@ -256,23 +256,38 @@ section {
 
 .dropdown {
   border: 2px solid #d2bf55;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 40px 80px 40px 30px;
   text-align: center;
   font-size: 25px;
 
 }
+
 
 .dropdown-dark {
   border: 2px solid #FBBFCA;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 40px 80px 40px 30px;
   text-align: center;
   font-size: 25px;
 }
 
+
+
+.faq-toggle {
+  background-color: #d2bf55;
+  padding: 20px;
+  border-radius: 5px;
+  height: 0px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.faq-open {
+  height: auto;
+}
 
 #drop {
 

@@ -110,6 +110,10 @@ section {
   font-size: 25px;
 }
 
+
+
+
+
 #drop {
 
     display: flex;
@@ -120,10 +124,6 @@ section {
     flex-direction: column;
   }
   
-  #drop div {
-    width: 100%;
-    height: auto;
-  }  
 
 
 nav {
@@ -332,6 +332,8 @@ section {
   font-size: 18px;
 }
 
+
+
 #drop {
 
     display: flex;
@@ -342,10 +344,6 @@ section {
     flex-direction: column;
   }
   
-  #drop div {
-    width: 100%;
-    height: auto;
-  }  
 
 
 nav {

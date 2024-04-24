@@ -276,13 +276,21 @@ section {
 
 
 .faq-toggle {
-  background-color: #d2bf55;
   padding: 20px;
   border-radius: 5px;
-  height: 10px;
+  height: 120px;
   cursor: pointer;
   overflow: hidden;
 }
+
+.faq-toggle-dark {
+  padding: 20px;
+  border-radius: 5px;
+  height: 120px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
 
 .faq-open {
   height: auto;
@@ -299,10 +307,6 @@ section {
     flex-direction: column;
   }
   
-  #drop div {
-    width: 100%;
-    height: auto;
-  }  
 
 
 nav {

@@ -248,18 +248,62 @@ section {
     gap: 20px;
     }
 
-    .image {
-      object-fit: cover;
-      width: 300px;
-      height: 300px;
+  
+
+  .piccon {
+  position: relative;
+  height: 300px;
+  width: 300px;
     }
+
+
+  .image {
+  display: block;
+   object-fit: cover;
+   width: 300px;
+   height: 300px;
+  }
     
-    
-.pic-hover:hover {
-  color:#FBBFCA;
-  opacity: 80%;
+.pic-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease; 
+  background-color:#d2bf55;
 }
 
+.pic-hov-dark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease; 
+  background-color:#2B061E;
+}
+
+.piccon:hover .pic-hover {
+  opacity: 1;
+}
+
+.pic-text {
+  position: absolute;
+  font-size: 25px !important;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .dropdown {
   border: 2px solid #d2bf55;
